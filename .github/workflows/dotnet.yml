@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 env:
-  app-name: "ghl03webapp7045"
+  app-name: "https://ghl03webapp7045.azurewebsites.net"
   rg-name: "ghl03mp-RG"
 
 jobs:
