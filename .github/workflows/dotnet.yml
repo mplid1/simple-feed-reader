@@ -37,7 +37,7 @@ jobs:
         if-no-files-found: warn
   deploy_staging:
     needs: build
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     environment:
       name: PRE-PROD
